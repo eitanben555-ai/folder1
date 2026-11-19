@@ -5,11 +5,11 @@ public class project1{
         double num1, num2;
         String operator;
 
-        while (1>0) {
+        while (true) {
             System.out.println("enter a number: ");    //getting a value for my numbers and operator from lines 9-14 
             num1=scanner.nextInt();
             System.out.println("enter a operator: ");
-            operator=scanner.next();
+            operator=scanner.nextLine();
             System.out.println("enter another number: ");
             num2=scanner.nextInt();
             double result;
